@@ -6,7 +6,6 @@
 /app/bootstrap.php.cache
 /build/
 /bin/
-/composer.phar
 /app/config/deploy.rb
 Capfile
 *~
