@@ -1,0 +1,3 @@
+soletic_oxygenwebsite_index:
+    pattern:  /
+    defaults: { _controller: 'SoleticOxygenWebsiteBundle:Default:index' }

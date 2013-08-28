@@ -1,0 +1,4 @@
+soletic_oxygen_website:
+    resource: "@SoleticOxygenWebsiteBundle/Resources/config/routing.yml"
+    prefix:   /
+
