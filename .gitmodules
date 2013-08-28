@@ -1,0 +1,6 @@
+[submodule "src/Oxygen/FrameworkBundle"]
+	path = src/Oxygen/FrameworkBundle
+	url = https://lolozere@github.com/Soletic/OxygenFrameworkBundle.git
+[submodule "src/Oxygen/UIBundle"]
+	path = src/Oxygen/UIBundle
+	url = https://lolozere@github.com/Soletic/OxygenUIBundle.git

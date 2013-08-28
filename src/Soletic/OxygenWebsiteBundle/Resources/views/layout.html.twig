@@ -1,0 +1,50 @@
+{% extends 'OxygenUIBundle::layout.html.twig' %}
+
+{% block sidebar %}{% endblock %}
+
+{% block navbar %}
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{{ path('soletic_oxygenwebsite_index') }}">Oxygen</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/fr/doc/current" target="_blank">Documentation</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
+{% endblock navbar %}
+
+{% block main %}
+        <div class="col-xs-12 col-sm-12">
+          <div class="jumbotron">
+            <h1>Oxygen</h1>
+            <h2>Symfony2, Doctrine and Bootstrap twitter Projects</h1>
+            <p>
+            	Oxygen est un framework basé sur Symfony2 facilitant la création rapide d’applications métiers sur la base de bundles (modules) extensibles.
+			</p>
+          </div>
+          <div>
+          	<p>
+				De nombreux logiciels Open Source restent trop orientées sur des fonctionnalités métiers particulières (CMS, eCommerce, Réseau social) et s’adaptent difficilement à des logiques métiers spécifiques comme par exemple un réseau social centré sur des contenus.
+			</p>
+			<p>
+				Chaque bundle Oxygen a un seul objectif et est composé de fonctionnalités permettant de le remplir.
+            </p>
+          </div>
+        </div><!--/span-->
+{% endblock main %}
+
+{% block footer %}
+	  <hr>
+      <footer>
+        <p>&copy; <a href="http://www.soletic.org">Sol&TIC</a></p>
+      </footer>
+{% endblock footer %}
